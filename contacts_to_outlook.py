@@ -73,6 +73,7 @@ def rem_double_label_delimiters(label):
         if label[-1] == ";":
             label = label[:-1]
 
+    return label
 
 def remove_mycontacts_label(df):
     """ Remove the label 'myContacts' that is added 
